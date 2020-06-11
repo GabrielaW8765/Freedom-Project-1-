@@ -1,0 +1,112 @@
+.a {
+  font-family: Bradley Hand, cursive;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+
+.box {
+  border-style:solid;
+  border-color:black;
+  border-width: 5px;
+  text-align: center;
+}
+
+div {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #9FF9E7 50%,#118365 100%);
+    opacity: 0.5px;
+  
+}
+
+.square {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(21, 236, 129);
+}
+
+.text {
+  text-align: center;
+  font-family: cursive; 
+  font-size: 30px;
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.body{
+  background: linear-gradient(to bottom, #FFFFFF 0%, rgb(30, 173, 145) 50%,#64F5D9 100%);
+}
+
+
+ul {
+  color: #118365;
+  font-family:Apple Chancery, cursive;
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a:hover {
+  display: block;
+  width: 60px;
+  background-color: #64F5D9;
+  text-align: center;
+}
+
+
+
+
+p {
+  color: black;
+}
+
+h3 {
+  color: rgb(0, 0, 0)
+}
+
+h3:hover {
+  color: white;
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px), (max-width: 1000px) {
+html {	background-color: #50aeb4;  }
+}
+body {
+  background-color: aqua;
+} 
+
+.accordion {
+  background-color: rgb(4, 224, 240);
+  color: rgb(32, 138, 124);
+  cursor: pointer;
+  padding: 18px;
+  width:100%;
+  text-align:center;
+  outline: none;
+  transition:.4s;
+}
+
+.accordion:hover {
+  background-color: rgb(26, 236, 208);
+
+}
+
+.panel{
+  padding: 0 18px;
+  background-color: rgb(29, 122, 110);
+  display: none;
+  overflow: hidden;
+}
+
+
+.a {
+  font-family: cursive;
+}
